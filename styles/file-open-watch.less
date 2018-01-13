@@ -4,5 +4,40 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+.tree-view .directory {
+  &.status-ignored {
+    .watch-eye-svg {
+      fill: @text-color-ignored !important;
+    }
+  }
+  &.status-modified {
+    .watch-eye-svg {
+      fill: @text-color-warning !important;
+    }
+  }
+  &.status-added {
+    .watch-eye-svg {
+      fill: @text-color-success !important;
+    }
+  }
+  .header.watched {
+    position: relative;
+
+    .watch-eye-svg {
+      position: absolute;
+      right: 4px;
+      top: 0px;
+      fill: @text-color;
+      animation: hideEye 2s ease forwards;
+    }
+  }
+}
+
 .file-open-watch {
+
+}
+
+@keyframes hideEye {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }

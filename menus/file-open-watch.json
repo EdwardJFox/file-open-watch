@@ -3,7 +3,7 @@
     ".tree-view .directory .header": [
       {
         "label": "Add folder to File Watch",
-        "command": "file-open-watch:addFolder"
+        "command": "file-open-watch:add-folder"
       }
     ]
   },
@@ -16,11 +16,11 @@
           "submenu": [
             {
               "label": "Start",
-              "command": "file-open-watch:startWatch"
+              "command": "file-open-watch:start-watch"
             },
             {
               "label": "End",
-              "command": "file-open-watch:endWatch"
+              "command": "file-open-watch:end-watch"
             }
           ]
         }
