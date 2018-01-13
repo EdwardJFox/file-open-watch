@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Watch project folders, and open a file in the default application when a file is created",
   "keywords": [],
-  "repository": "https://github.com/atom/file-open-watch",
+  "repository": "https://github.com/EdwardJFox/file-open-watch",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
