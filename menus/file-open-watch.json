@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    ".tree-view .directory .header": [
+      {
+        "label": "Add folder to File Watch",
+        "command": "file-open-watch:addFolder"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "file-open-watch",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "file-open-watch:startWatch"
+            },
+            {
+              "label": "End",
+              "command": "file-open-watch:endWatch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
