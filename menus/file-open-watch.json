@@ -2,7 +2,7 @@
   "context-menu": {
     ".tree-view .directory .header": [
       {
-        "label": "Add folder to File Watch",
+        "label": "Add folder to File/Open Watch",
         "command": "file-open-watch:add-folder"
       }
     ]
